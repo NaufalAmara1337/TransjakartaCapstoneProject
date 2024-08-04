@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3abe3320ba4c3e0a3aabc10a9ac1b6da {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3abe3320ba4c3e0a3aabc10a9ac1b6da" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3abe3320ba4c3e0a3aabc10a9ac1b6da = L.map(
+                "map_3abe3320ba4c3e0a3aabc10a9ac1b6da",
+                {
+                    center: [-6.2088, 106.8456],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bcb619b2997b875ee4494d03977291c7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_bcb619b2997b875ee4494d03977291c7.addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var marker_dd8600963958cdf0ff6c7495291fcb01 = L.marker(
+                [-6.304475, 106.84858],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_6b0e3f63ca471dd7c6c33161723a096c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd8600963958cdf0ff6c7495291fcb01.setIcon(icon_6b0e3f63ca471dd7c6c33161723a096c);
+        
+    
+        var popup_86d4c4c19916cecd7b9f0f19144097c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b1f024e11cc38a51bc7fded9f378018 = $(`<div id="html_7b1f024e11cc38a51bc7fded9f378018" style="width: 100.0%; height: 100.0%;">ACC Simatupang: 1</div>`)[0];
+                popup_86d4c4c19916cecd7b9f0f19144097c1.setContent(html_7b1f024e11cc38a51bc7fded9f378018);
+            
+        
+
+        marker_dd8600963958cdf0ff6c7495291fcb01.bindPopup(popup_86d4c4c19916cecd7b9f0f19144097c1)
+        ;
+
+        
+    
+    
+            var marker_752d4cf180a1e145818eb042bd2575ca = L.marker(
+                [-6.190732, 106.76743],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_a5617b9753872bdfe503ea6c917a8df1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_752d4cf180a1e145818eb042bd2575ca.setIcon(icon_a5617b9753872bdfe503ea6c917a8df1);
+        
+    
+        var popup_62f361bd566b2867a9863445fc486caf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6fa1f95d3380a9b651e5e1ad859406a = $(`<div id="html_b6fa1f95d3380a9b651e5e1ad859406a" style="width: 100.0%; height: 100.0%;">AKR Tower: 1</div>`)[0];
+                popup_62f361bd566b2867a9863445fc486caf.setContent(html_b6fa1f95d3380a9b651e5e1ad859406a);
+            
+        
+
+        marker_752d4cf180a1e145818eb042bd2575ca.bindPopup(popup_62f361bd566b2867a9863445fc486caf)
+        ;
+
+        
+    
+    
+            var marker_aa77b75021f294466f1277a6e5de4bf0 = L.marker(
+                [-6.236396, 106.74776],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_78e4de7ac255289d3776dc52bfa3733d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa77b75021f294466f1277a6e5de4bf0.setIcon(icon_78e4de7ac255289d3776dc52bfa3733d);
+        
+    
+        var popup_42dbfe1f10e782fb7230d3c6b5ed7d07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e53ee26f5ec1af3530c261fae0cde13 = $(`<div id="html_2e53ee26f5ec1af3530c261fae0cde13" style="width: 100.0%; height: 100.0%;">Adam Malik 1: 1</div>`)[0];
+                popup_42dbfe1f10e782fb7230d3c6b5ed7d07.setContent(html_2e53ee26f5ec1af3530c261fae0cde13);
+            
+        
+
+        marker_aa77b75021f294466f1277a6e5de4bf0.bindPopup(popup_42dbfe1f10e782fb7230d3c6b5ed7d07)
+        ;
+
+        
+    
+    
+            var marker_1ec30a56cacdc517632bf1b5a309e7dc = L.marker(
+                [-6.192036, 106.9353],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_2a38c9e2296a17c81cd2a17cd2e8cfe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ec30a56cacdc517632bf1b5a309e7dc.setIcon(icon_2a38c9e2296a17c81cd2a17cd2e8cfe5);
+        
+    
+        var popup_32f6a208a433a24271b058f1e19410a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c43793809bf6bc825858dd79f42da46 = $(`<div id="html_7c43793809bf6bc825858dd79f42da46" style="width: 100.0%; height: 100.0%;">Al Wathoniyah 1: 1</div>`)[0];
+                popup_32f6a208a433a24271b058f1e19410a3.setContent(html_7c43793809bf6bc825858dd79f42da46);
+            
+        
+
+        marker_1ec30a56cacdc517632bf1b5a309e7dc.bindPopup(popup_32f6a208a433a24271b058f1e19410a3)
+        ;
+
+        
+    
+    
+            var marker_b28cdcae8080f57fca66be007315f520 = L.marker(
+                [-6.18371, 106.923718],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_ccdea0ef56ac8d915ca041adb9f6ac9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b28cdcae8080f57fca66be007315f520.setIcon(icon_ccdea0ef56ac8d915ca041adb9f6ac9f);
+        
+    
+        var popup_b37c5a8948b8465822ec6161111cc1ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29177b1715787fcaa85309fa3a76e875 = $(`<div id="html_29177b1715787fcaa85309fa3a76e875" style="width: 100.0%; height: 100.0%;">Al-Wathoniyah: 1</div>`)[0];
+                popup_b37c5a8948b8465822ec6161111cc1ba.setContent(html_29177b1715787fcaa85309fa3a76e875);
+            
+        
+
+        marker_b28cdcae8080f57fca66be007315f520.bindPopup(popup_b37c5a8948b8465822ec6161111cc1ba)
+        ;
+
+        
+    
+    
+            var marker_fba1ad363b0414a64df631512b7eaa2d = L.marker(
+                [-6.209233, 106.83076],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_4d9593ec890042c47db88c9f424982c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fba1ad363b0414a64df631512b7eaa2d.setIcon(icon_4d9593ec890042c47db88c9f424982c4);
+        
+    
+        var popup_ad6a54e4c3f537038721e9923f74c6de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b02179fe3f99646063da4f9c282a14e7 = $(`<div id="html_b02179fe3f99646063da4f9c282a14e7" style="width: 100.0%; height: 100.0%;">Allianz: 1</div>`)[0];
+                popup_ad6a54e4c3f537038721e9923f74c6de.setContent(html_b02179fe3f99646063da4f9c282a14e7);
+            
+        
+
+        marker_fba1ad363b0414a64df631512b7eaa2d.bindPopup(popup_ad6a54e4c3f537038721e9923f74c6de)
+        ;
+
+        
+    
+    
+            var marker_7a42937f1452d1152aaaa771a67aae1c = L.marker(
+                [-6.312832, 106.80338],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_c8d06af8f63d3b6262425984de7ac201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a42937f1452d1152aaaa771a67aae1c.setIcon(icon_c8d06af8f63d3b6262425984de7ac201);
+        
+    
+        var popup_5356ef6fd31fc3e68ef3a3e27e3c924c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5114e1b1c9a7e0c0b077d52105eca37 = $(`<div id="html_c5114e1b1c9a7e0c0b077d52105eca37" style="width: 100.0%; height: 100.0%;">Andara Margasatwa 3: 1</div>`)[0];
+                popup_5356ef6fd31fc3e68ef3a3e27e3c924c.setContent(html_c5114e1b1c9a7e0c0b077d52105eca37);
+            
+        
+
+        marker_7a42937f1452d1152aaaa771a67aae1c.bindPopup(popup_5356ef6fd31fc3e68ef3a3e27e3c924c)
+        ;
+
+        
+    
+    
+            var marker_30b2d55ccc93bf68dc162b585609a0e9 = L.marker(
+                [-6.250453, 106.79171],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_204ff8d55a527cfd3c2f2ad57ca721e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_30b2d55ccc93bf68dc162b585609a0e9.setIcon(icon_204ff8d55a527cfd3c2f2ad57ca721e1);
+        
+    
+        var popup_3320a630be0d3bf09e33493945b5d4c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9621f72184d5f2b86a56a84efc8f0fba = $(`<div id="html_9621f72184d5f2b86a56a84efc8f0fba" style="width: 100.0%; height: 100.0%;">Antena III: 1</div>`)[0];
+                popup_3320a630be0d3bf09e33493945b5d4c3.setContent(html_9621f72184d5f2b86a56a84efc8f0fba);
+            
+        
+
+        marker_30b2d55ccc93bf68dc162b585609a0e9.bindPopup(popup_3320a630be0d3bf09e33493945b5d4c3)
+        ;
+
+        
+    
+    
+            var marker_19d05176e1a8fabbc85544f1cba42432 = L.marker(
+                [-6.188259, 106.76855],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_1d94b40f6dc3aba3151c4cc49fd87486 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19d05176e1a8fabbc85544f1cba42432.setIcon(icon_1d94b40f6dc3aba3151c4cc49fd87486);
+        
+    
+        var popup_a3ebfe087bb29d64a277ef1a15b9dfa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96c0c336dbf51ccb2944dc5bcf8d2951 = $(`<div id="html_96c0c336dbf51ccb2944dc5bcf8d2951" style="width: 100.0%; height: 100.0%;">Apartemen Kedoya Elok 2: 1</div>`)[0];
+                popup_a3ebfe087bb29d64a277ef1a15b9dfa1.setContent(html_96c0c336dbf51ccb2944dc5bcf8d2951);
+            
+        
+
+        marker_19d05176e1a8fabbc85544f1cba42432.bindPopup(popup_a3ebfe087bb29d64a277ef1a15b9dfa1)
+        ;
+
+        
+    
+    
+            var marker_af66a3c79737a81bf93e5c78e4359d6c = L.marker(
+                [-6.202019, 106.88477],
+                {}
+            ).addTo(map_3abe3320ba4c3e0a3aabc10a9ac1b6da);
+        
+    
+            var icon_5fc2675323cc33a9e58883005ebb345f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af66a3c79737a81bf93e5c78e4359d6c.setIcon(icon_5fc2675323cc33a9e58883005ebb345f);
+        
+    
+        var popup_a2bda14557cbbd369c7cc7443caed013 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_311c5b9db0c72053df3b763ead8fc503 = $(`<div id="html_311c5b9db0c72053df3b763ead8fc503" style="width: 100.0%; height: 100.0%;">Apotik Emilia Rawamangun: 1</div>`)[0];
+                popup_a2bda14557cbbd369c7cc7443caed013.setContent(html_311c5b9db0c72053df3b763ead8fc503);
+            
+        
+
+        marker_af66a3c79737a81bf93e5c78e4359d6c.bindPopup(popup_a2bda14557cbbd369c7cc7443caed013)
+        ;
+
+        
+    
+</script>
+</html>
